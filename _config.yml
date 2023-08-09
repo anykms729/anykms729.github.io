@@ -97,10 +97,10 @@ author:
   name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  location         : "Dublin, Ireland"
   email            :
   links:
-    - label: "Email"
+    - label: "anykms9595@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
