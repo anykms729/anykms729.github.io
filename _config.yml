@@ -2,7 +2,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" #"default" # "air", "mint", "contrast", "dark", "dirt", "neon", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -94,8 +94,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Miso K"
+  avatar           : "assets/images/bee-705412_640.png"
   bio              : "I am an **amazing** person."
   location         : "Dublin, Ireland"
   email            :
