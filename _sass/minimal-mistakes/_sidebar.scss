@@ -19,12 +19,12 @@
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
+    opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 
     &:hover {
-      opacity: 1;
+      transform: scale(1.01);  
     }
 
     &.sticky {
@@ -136,6 +136,7 @@
   img {
 
     @include breakpoint($large) {
+      margin-top: 15px;
       padding: 5px;
     }
   }
@@ -171,14 +172,14 @@
 }
 .sidebar .author__name {
   font-family: 'Lilita One', cursive;
-  font-size: $type-size-4;
+  font-size: $type-size-5;
 }
 
 .author__bio {
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
 }
@@ -193,7 +194,7 @@
 
   li:last-child {
     a {
-      margin-bottom: 0;
+      margin-bottom: 10px;
     }
   }
 
